@@ -1,0 +1,1780 @@
+{
+ "generated_by": "Claude, following lib/prompts.mjs, over the 50 dataset files (snapshot taken at build time).",
+ "today": "2026-07-10",
+ "items": [
+  {
+   "id": "finedge-commercial-call",
+   "type": "waiting_on_us",
+   "company": "FinEdge Bank",
+   "contact_name": "Suresh Menon",
+   "contact_email": "suresh.menon@finedge.com",
+   "owner": "Bhavin",
+   "summary": "Compliance cleared AtliQ on 19 Jun; Suresh asked to confirm availability for the commercial call. No reply in 21 days.",
+   "action": "Confirm a slot for the commercial discussion today.",
+   "asked_on": "2026-06-19",
+   "evidence": [
+    {
+     "file": "2026-03-26_finedge_compliance_docs.md",
+     "quote": "compliance has cleared AtliQ. We can move to the commercial discussion now. My assistant will find a slot the week of 29 June — please confirm your availability."
+    },
+    {
+     "file": "2026-03-26_finedge_compliance_docs.md",
+     "quote": "No confirmation sent as of 2026-07-10."
+    }
+   ],
+   "draft": {
+    "to": "suresh.menon@finedge.com",
+    "subject": "RE: Data platform proposal — commercial discussion",
+    "body": "Hi Suresh,\n\nThank you for the great news on compliance, and my apologies for the slow reply on scheduling. I'd like to keep the momentum you mentioned. I'm available [add 2–3 slots next week] for the commercial discussion; please let me know which works for you or your assistant.\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "meridian-proposal-questions",
+   "type": "waiting_on_us",
+   "company": "Meridian Healthcare",
+   "contact_name": "Dr. Sanjay Kulkarni",
+   "contact_email": "sanjay.k@meridianhealth.com",
+   "owner": "Bhavin",
+   "summary": "Two proposal questions from their IT director (HL7 feeds; does the 14 weeks include UAT) unanswered since 16 Jun.",
+   "action": "Answer both questions; get the HL7 answer from Pranav first.",
+   "asked_on": "2026-06-16",
+   "client_deadline": "2026-07-15",
+   "client_deadline_text": "before our Q2 budget review in mid-July",
+   "evidence": [
+    {
+     "file": "2026-06-16_meridian_proposal_questions.md",
+     "quote": "Can the ingestion layer handle HL7 feeds from our older lab systems, or only the FHIR APIs mentioned in section 3?"
+    },
+    {
+     "file": "2026-06-16_meridian_proposal_questions.md",
+     "quote": "does that include UAT with our clinicians, or is that on top?"
+    },
+    {
+     "file": "2026-06-16_meridian_proposal_questions.md",
+     "quote": "We'd like to close this out before our Q2 budget review in mid-July."
+    },
+    {
+     "file": "2026-07-06_meridian_check.md",
+     "quote": "Nobody sure if we replied to Sanjay's proposal questions from 16 Jun."
+    }
+   ],
+   "draft": {
+    "to": "sanjay.k@meridianhealth.com",
+    "subject": "RE: AtliQ Proposal — Clinical Data Platform",
+    "body": "Dear Sanjay,\n\nApologies for the delay in coming back on your IT director's questions.\n\n1. HL7 feeds: [confirm with Pranav whether the ingestion layer supports HL7 from the older lab systems, and how].\n2. Timeline: [confirm whether the 14 weeks include clinician UAT or if UAT is additional, and by how long].\n\nI know you'd like to close this before your mid-July budget review. Would a short call this week help to settle anything else?\n\nBest regards,\nBhavin"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "shopswift-sow",
+   "type": "waiting_on_us",
+   "company": "ShopSwift",
+   "contact_name": "Elena Petrova",
+   "contact_email": "elena@shopswift.com",
+   "owner": "Bhavin",
+   "summary": "Budget of 55k approved; Elena needs the statement of work by 15 July or it slips a quarter. No reply since 29 Jun.",
+   "action": "Acknowledge today and send the SOW before 15 July.",
+   "asked_on": "2026-06-29",
+   "client_deadline": "2026-07-15",
+   "client_deadline_text": "a statement of work by 15 July",
+   "value_usd": 55000,
+   "value_text": "leadership has formally approved 55k",
+   "evidence": [
+    {
+     "file": "2026-06-29_shopswift_budget_confirmed.md",
+     "quote": "leadership has formally approved 55k for the recommendation engine this fiscal year."
+    },
+    {
+     "file": "2026-06-29_shopswift_budget_confirmed.md",
+     "quote": "a statement of work by 15 July so I can push it through procurement"
+    },
+    {
+     "file": "2026-06-29_shopswift_budget_confirmed.md",
+     "quote": "If we miss that window it slips to next quarter"
+    }
+   ],
+   "draft": {
+    "to": "elena@shopswift.com",
+    "subject": "RE: Recommendation engine — we have budget",
+    "body": "Hi Elena,\n\nCongratulations on getting the 55k approved, and sorry for the slow acknowledgement. You'll have the statement of work by [date, before 15 July] so it can go through procurement this quarter. If anything in the scope has changed since our call, let me know today and I'll reflect it.\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "voltenergy-tco",
+   "type": "waiting_on_us",
+   "company": "VoltEnergy",
+   "contact_name": "Marcus Chen",
+   "contact_email": "m.chen@voltenergy.com",
+   "owner": "Karandeep",
+   "summary": "Marcus asked for the 3-year TCO comparison (Power BI vs Tableau) \"this week\" on 1 Jul. Not sent.",
+   "action": "Send the 3-year TCO comparison.",
+   "asked_on": "2026-07-01",
+   "client_deadline": "2026-07-03",
+   "client_deadline_text": "Can you send it this week?",
+   "evidence": [
+    {
+     "file": "2026-06-15_voltenergy_competitor.md",
+     "quote": "That TCO comparison would actually help a lot — board asks for 3-year numbers. Can you send it this week?"
+    },
+    {
+     "file": "2026-06-15_voltenergy_competitor.md",
+     "quote": "No reply sent as of 2026-07-10."
+    }
+   ],
+   "draft": {
+    "to": "m.chen@voltenergy.com",
+    "subject": "RE: Proposal — energy trading dashboards",
+    "body": "Hi Marcus,\n\nApologies, this slipped past the week you asked for. Attached is the 3-year TCO comparison of Power BI and Tableau for your user count [attach]. Happy to walk your board through it on a short call.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "cloudnine-references",
+   "type": "waiting_on_us",
+   "company": "CloudNine SaaS",
+   "contact_name": "Dev Malhotra",
+   "contact_email": "dev@cloudnine.io",
+   "owner": "Karandeep",
+   "summary": "References promised \"in a day or two\" on 22 Jun; Dev chased on 6 Jul and wants to close by mid-July.",
+   "action": "Send two SaaS references today.",
+   "asked_on": "2026-07-06",
+   "client_deadline": "2026-07-15",
+   "client_deadline_text": "close this out by mid-July",
+   "due_text": "will revert with names in a day or two",
+   "evidence": [
+    {
+     "file": "2026-06-21_cloudnine_rates_references.md",
+     "quote": "will revert with names in a day or two."
+    },
+    {
+     "file": "2026-06-21_cloudnine_rates_references.md",
+     "quote": "any update on the references? We're comparing you with one other vendor and want to close this out by mid-July."
+    }
+   ],
+   "draft": {
+    "to": "dev@cloudnine.io",
+    "subject": "RE: Staff augmentation — next steps",
+    "body": "Hi Dev,\n\nSorry for the delay on the references. Here are two SaaS clients where our engineers embedded into an existing team, and both are happy to take a call: [name, company, email] and [name, company, email].\n\nI know you're closing by mid-July. Let me know if a quick call would help.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default"
+  },
+  {
+   "id": "freshcart-referral",
+   "type": "waiting_on_us",
+   "company": "FreshCart",
+   "contact_name": "Ananya Desai",
+   "contact_email": "ananya@freshcart.in",
+   "owner": "Dhaval",
+   "summary": "Warm referral from Priya (Acme). Promised call never happened; Ananya decides by mid-July and is talking to two other vendors.",
+   "action": "Apologise and book the call this week.",
+   "asked_on": "2026-06-16",
+   "client_deadline": "2026-07-15",
+   "client_deadline_text": "want to decide by mid-July",
+   "evidence": [
+    {
+     "file": "2026-05-18_freshcart_referral_followup.md",
+     "quote": "I'll call you early next week to set things up."
+    },
+    {
+     "file": "2026-05-18_freshcart_referral_followup.md",
+     "quote": "never got that call. We're now in conversations with two other vendors and want to decide by mid-July."
+    },
+    {
+     "file": "2026-06-24_acme_quarterly_review.md",
+     "quote": "she confirmed Ananya is expecting our call."
+    }
+   ],
+   "draft": {
+    "to": "ananya@freshcart.in",
+    "subject": "RE: Priya Raman suggested I reach out",
+    "body": "Hi Ananya,\n\nI said I'd call and didn't, and I'm sorry. We'd still very much like to be in the mix for your customer portal (orders, subscriptions, wallet) before your mid-July decision. Could we speak on [day, time]? I'll come with a short approach.\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "clearpath-reopen",
+   "type": "waiting_on_us",
+   "company": "ClearPath Insurance",
+   "contact_name": "Deepa Nair",
+   "contact_email": "deepa.nair@clearpathins.com",
+   "owner": "Dhaval",
+   "summary": "Lost deal is back: budget freeze lifted, project on their Q3 roadmap. Deepa asked if the 40k estimate still holds. Unanswered since 9 Jun.",
+   "action": "Reply yes and confirm or update the estimate.",
+   "asked_on": "2026-06-09",
+   "value_usd": 40000,
+   "value_text": "does the 40k estimate still hold?",
+   "evidence": [
+    {
+     "file": "2026-06-09_clearpath_budget_unfrozen.md",
+     "quote": "The freeze lifted with the new financial year and the project is back on our roadmap for Q3."
+    },
+    {
+     "file": "2026-06-09_clearpath_budget_unfrozen.md",
+     "quote": "Is AtliQ still interested, and does the 40k estimate still hold?"
+    }
+   ],
+   "draft": {
+    "to": "deepa.nair@clearpathins.com",
+    "subject": "RE: Picking up where we left off?",
+    "body": "Hi Deepa,\n\nYes, we're very much still interested, and apologies for the slow reply. [Confirm whether the 40k estimate holds or what has changed.] Could we have a short call to check the scope of the claims data warehouse against your Q3 plans?\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "harborfinch-intro",
+   "type": "waiting_on_us",
+   "company": "Harbor & Finch Advisory",
+   "contact_name": "David Harbor",
+   "contact_email": "david@harborfinch.com",
+   "owner": "Bhavin",
+   "summary": "New referral from Suresh (FinEdge): ~120 manual client reports a quarter. David asked for a call; no reply since 27 Jun. Not in the CRM.",
+   "action": "Reply to David and offer times; add Harbor & Finch to the CRM.",
+   "asked_on": "2026-06-27",
+   "evidence": [
+    {
+     "file": "2026-06-27_harborfinch_referral_intro.md",
+     "quote": "We produce ~120 client reports a quarter, all manual. Do you have time in the next couple of weeks?"
+    },
+    {
+     "file": "2026-06-27_harborfinch_referral_intro.md",
+     "quote": "Harbor & Finch does not appear in the CRM."
+    }
+   ],
+   "draft": {
+    "to": "david@harborfinch.com",
+    "subject": "RE: Intro: AtliQ <> Harbor & Finch",
+    "body": "Hi David,\n\nThank you, and thanks to Suresh for the introduction. Automating ~120 client reports a quarter is very much our kind of problem. Would [two time options] work for a 30-minute call?\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "nimbus-intro",
+   "type": "waiting_on_us",
+   "company": "Nimbus Lending",
+   "contact_name": "Rhea Sharma",
+   "contact_email": "rhea@nimbuslending.in",
+   "owner": "Bhavin",
+   "summary": "Referral from PayTrack: ~4,000 loan applications a month reviewed manually. Rhea wants a call before her budget talks the week of 20 July. Not in the CRM.",
+   "action": "Book a call before 20 July; add Nimbus Lending to the CRM.",
+   "asked_on": "2026-07-06",
+   "client_deadline": "2026-07-17",
+   "client_deadline_text": "budget conversations happening the week of 20 July, so a call before then",
+   "evidence": [
+    {
+     "file": "2026-07-05_nimbus_lending_intro.md",
+     "quote": "we process ~4,000 loan applications a month, all manually reviewed."
+    },
+    {
+     "file": "2026-07-05_nimbus_lending_intro.md",
+     "quote": "I have budget conversations happening the week of 20 July, so a call before then would be ideal."
+    },
+    {
+     "file": "2026-07-05_nimbus_lending_intro.md",
+     "quote": "Nimbus Lending does not appear in the CRM."
+    }
+   ],
+   "draft": {
+    "to": "rhea@nimbuslending.in",
+    "subject": "RE: Intro: AtliQ <> Nimbus Lending",
+    "body": "Hi Rhea,\n\nThanks for reaching out, and thanks to Shreya for the kind words. We'd be glad to talk before your budget conversations the week of 20 July. Would [two time options next week] work?\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "pixelworks-partnership",
+   "type": "waiting_on_us",
+   "company": "PixelWorks Agency",
+   "contact_name": "Tara Bose",
+   "contact_email": "tara@pixelworks.agency",
+   "owner": "Jay",
+   "summary": "30-person agency wants a standing white-label partner (3–4 projects a quarter). Asked who to speak with on 29 Jun. Not in the CRM.",
+   "action": "Reply with the right contact and offer a call; add PixelWorks to the CRM.",
+   "asked_on": "2026-06-29",
+   "evidence": [
+    {
+     "file": "2026-06-29_pixelworks_partnership.md",
+     "quote": "Potentially 3–4 projects a quarter. Who's the right person to speak with?"
+    },
+    {
+     "file": "2026-06-29_pixelworks_partnership.md",
+     "quote": "PixelWorks does not appear in the CRM."
+    }
+   ],
+   "draft": {
+    "to": "tara@pixelworks.agency",
+    "subject": "RE: Partnership — overflow dev work",
+    "body": "Hi Tara,\n\nThanks for reaching out, and apologies for the slow reply. A standing partnership sounds like a great fit. [Name] is the right person for this and I've copied them here. Would [two time options] work for an introductory call?\n\nBest,\nJay"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "lumino-case-study",
+   "type": "waiting_on_us",
+   "company": "Lumino Fitness",
+   "contact_name": "Carlos Mendes",
+   "contact_email": "carlos@luminofitness.com",
+   "owner": "Jay",
+   "summary": "TechSummit lead: Jay promised a member-churn case study; Carlos is budgeting for next quarter. No reply since 20 Jun. Not in the CRM.",
+   "action": "Send the case study; add Lumino Fitness to the CRM.",
+   "asked_on": "2026-06-20",
+   "evidence": [
+    {
+     "file": "2026-06-20_lumino_fitness_case_study.md",
+     "quote": "You mentioned you'd send over the case study about the member-churn prediction work you did for a fitness chain."
+    },
+    {
+     "file": "2026-06-20_lumino_fitness_case_study.md",
+     "quote": "Lumino Fitness does not appear in the CRM."
+    }
+   ],
+   "draft": {
+    "to": "carlos@luminofitness.com",
+    "subject": "RE: TechSummit follow-up — case study?",
+    "body": "Hi Carlos,\n\nGreat to hear from you, and sorry for the delay. Attached is the case study on the member-churn prediction work [attach]. As you plan next quarter's budget, I'd be happy to walk you through how it could apply to Lumino. Would a 30-minute call next week work?\n\nBest,\nJay"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "eduspark-enquiry",
+   "type": "waiting_on_us",
+   "company": "EduSpark",
+   "contact_name": "Vikram Joshi",
+   "contact_email": "vikram@eduspark.com",
+   "owner": "Jay",
+   "summary": "Website enquiry from 25 Jun never answered. Need is for admissions season (Aug–Sep); budget window closes mid-August; decision-maker is the Dean.",
+   "action": "Reply and propose a joint call with Prof. Meenakshi Iyer.",
+   "asked_on": "2026-07-08",
+   "client_deadline": "2026-08-14",
+   "client_deadline_text": "our budget window closes mid-August",
+   "evidence": [
+    {
+     "file": "2026-07-08_eduspark_website_enquiry.md",
+     "quote": "I submitted an enquiry through your website on 25 June about an AI assistant for student queries and haven't heard back"
+    },
+    {
+     "file": "2026-07-08_eduspark_website_enquiry.md",
+     "quote": "our budget window closes mid-August."
+    },
+    {
+     "file": "2026-07-08_eduspark_website_enquiry.md",
+     "quote": "that's Prof. Meenakshi Iyer, our Dean of Digital Learning. Happy to set up a joint call."
+    }
+   ],
+   "draft": {
+    "to": "vikram@eduspark.com",
+    "subject": "RE: Following up on my website enquiry (25 June)",
+    "body": "Hi Vikram,\n\nThank you for following up directly, and I'm sorry your enquiry went unanswered. A joint call with Prof. Iyer would be ideal, given the admissions spike in Aug–Sep. Would [two time options next week] suit you both?\n\nBest,\nJay"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "novapharma-references",
+   "type": "waiting_on_us",
+   "company": "NovaPharma",
+   "contact_name": "Emma Stone",
+   "contact_email": "estone@novapharma.com",
+   "owner": "Bhavin",
+   "summary": "Procurement (Emma) needs three healthcare/pharma references; everything must be wrapped by end of July.",
+   "action": "Line up three healthcare or pharma references.",
+   "asked_on": "2026-06-25",
+   "client_deadline": "2026-07-31",
+   "client_deadline_text": "we need everything wrapped by end of July",
+   "value_usd": 80000,
+   "value_text": "It gates the entire 80k NovaPharma deal.",
+   "evidence": [
+    {
+     "file": "2026-06-25_novapharma_stakeholders.md",
+     "quote": "Emma will need three references from healthcare/pharma clients."
+    },
+    {
+     "file": "2026-06-25_novapharma_stakeholders.md",
+     "quote": "Realistically we need everything wrapped by end of July to make this year's budget."
+    }
+   ],
+   "draft": {
+    "to": "estone@novapharma.com",
+    "subject": "References for AtliQ — trial document processing",
+    "body": "Hi Emma,\n\nAs Lisa mentioned, here are three healthcare and pharma references for AtliQ: [name, organisation, contact] ×3. Each has agreed to take a call. Please let me know if you need anything else for procurement.\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "bytebridge-case-studies",
+   "type": "promise",
+   "company": "ByteBridge",
+   "contact_name": "Fatima Al-Rashid",
+   "contact_email": "fatima@bytebridge.com",
+   "owner": "Karandeep",
+   "summary": "Promised two case studies and a reference \"by Friday\" (15 May) to counter TalentGrid's lower quote. Never sent.",
+   "action": "Send the two case studies and a reference.",
+   "asked_on": "2026-05-12",
+   "due_date": "2026-05-15",
+   "due_basis": "explicit",
+   "due_text": "by Friday",
+   "evidence": [
+    {
+     "file": "2026-05-10_bytebridge_competitor.md",
+     "quote": "I'll send both, plus a reference, by Friday."
+    },
+    {
+     "file": "2026-05-10_bytebridge_competitor.md",
+     "quote": "Nothing was sent. No contact with ByteBridge since 2026-05-12."
+    }
+   ],
+   "draft": {
+    "to": "fatima@bytebridge.com",
+    "subject": "RE: Augmented team proposal",
+    "body": "Hi Fatima,\n\nI promised you two case studies and a reference by Friday back in May, and I didn't deliver. My apologies. Attached are both case studies on engineer retention [attach], and [reference name, company] is happy to speak with you or your CFO.\n\nIf it helps your comparison with the other quote, I'm glad to walk through it together.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "zenlytics-invite",
+   "type": "promise",
+   "company": "Zenlytics",
+   "contact_name": "Maya Fernandes",
+   "contact_email": "maya@zenlytics.io",
+   "owner": "Bhavin",
+   "summary": "Agreed a Wednesday 3pm call and promised an invite \"shortly\" on 5 Jun; never sent. Maya needs 2 dbt + Snowflake engineers from August.",
+   "action": "Apologise and propose a new call time.",
+   "asked_on": "2026-06-05",
+   "due_date": "2026-06-05",
+   "due_basis": "inferred",
+   "due_text": "I'll send a calendar invite shortly.",
+   "evidence": [
+    {
+     "file": "2026-06-03_zenlytics_intro_call.md",
+     "quote": "Wednesday 3pm it is. I'll send a calendar invite shortly."
+    },
+    {
+     "file": "2026-06-03_zenlytics_intro_call.md",
+     "quote": "We're looking for 2 data engineers with dbt + Snowflake experience, ideally starting August."
+    },
+    {
+     "file": "2026-06-03_zenlytics_intro_call.md",
+     "quote": "No invite was ever sent."
+    }
+   ],
+   "draft": {
+    "to": "maya@zenlytics.io",
+    "subject": "RE: Staff augmentation — quick intro call?",
+    "body": "Hi Maya,\n\nI owe you an apology: I promised a calendar invite in June and it never went out. If you're still looking for two dbt + Snowflake engineers for August, I'd love to reschedule. Would [two time options, 2–5pm IST] work?\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "northwind-concepts",
+   "type": "promise",
+   "company": "Northwind Logistics",
+   "contact_name": "Tom Beckett",
+   "contact_email": "tbeckett@northwindlog.com",
+   "owner": "Dhaval",
+   "summary": "Happy client asked about a dashboard layer; Dhaval promised sample concepts \"next week\" on 13 Jun. Not sent.",
+   "action": "Send 2–3 sample dashboard concepts.",
+   "asked_on": "2026-06-13",
+   "due_date": "2026-06-19",
+   "due_basis": "inferred",
+   "due_text": "next week",
+   "evidence": [
+    {
+     "file": "2026-06-11_northwind_crosssell.md",
+     "quote": "Let me send you a few sample dashboard concepts next week to react to."
+    },
+    {
+     "file": "2026-06-11_northwind_crosssell.md",
+     "quote": "No samples sent as of 2026-07-10."
+    }
+   ],
+   "draft": {
+    "to": "tbeckett@northwindlog.com",
+    "subject": "RE: Pipeline running like clockwork — one question",
+    "body": "Hi Tom,\n\nSorry these took longer than I said. Attached are a few sample dashboard concepts on top of your existing warehouse [attach]. Happy to walk your CEO through them on a short call.\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "sunrise-v2-call",
+   "type": "promise",
+   "company": "Sunrise Foods",
+   "contact_name": "Meera Pillai",
+   "contact_email": "meera@sunrisefoods.in",
+   "owner": "Dhaval",
+   "summary": "Old client wants portal v2 (40 → 110 distributors) plus a sales dashboard. Dhaval promised a call when back from travel; none scheduled.",
+   "action": "Schedule the v2 call.",
+   "asked_on": "2026-06-14",
+   "due_date": "2026-06-19",
+   "due_basis": "inferred",
+   "due_text": "let me set up a call when I'm back",
+   "evidence": [
+    {
+     "file": "2026-06-10_sunrise_foods_reactivation.md",
+     "quote": "would AtliQ want to do a v2?"
+    },
+    {
+     "file": "2026-06-10_sunrise_foods_reactivation.md",
+     "quote": "Travelling this week — let me set up a call when I'm back."
+    },
+    {
+     "file": "2026-07-02_internal_pipeline_review.md",
+     "quote": "Still no call scheduled. \"That one's on me.\""
+    }
+   ],
+   "draft": {
+    "to": "meera@sunrisefoods.in",
+    "subject": "RE: Portal v2?",
+    "body": "Hi Meera,\n\nI'm back, and sorry it took this long. We'd love to do the v2, and to look at feeding the portal data into a sales dashboard for your CFO. Would [two time options] work for a call?\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "acme-scope-note",
+   "type": "promise",
+   "company": "Acme Retail Group",
+   "contact_name": "Priya Raman",
+   "contact_email": "priya.raman@acmeretail.com",
+   "owner": "Dhaval",
+   "summary": "Scope note for board-pack automation (~5 person-days a month) promised for 27 Jun; not done. Ayush was to write it.",
+   "action": "Get Ayush's scope note out to Priya.",
+   "asked_on": "2026-06-19",
+   "due_date": "2026-06-27",
+   "due_basis": "explicit",
+   "due_text": "Scope note for report automation — Ayush — by 27 Jun",
+   "evidence": [
+    {
+     "file": "2026-06-18_acme_retail_monthly_reports.md",
+     "quote": "we'll send you a short scope note this week."
+    },
+    {
+     "file": "2026-06-24_acme_quarterly_review.md",
+     "quote": "Scope note for report automation — Ayush — by 27 Jun"
+    },
+    {
+     "file": "2026-06-18_acme_retail_monthly_reports.md",
+     "quote": "No scope note sent as of 2026-07-10."
+    }
+   ],
+   "draft": {
+    "to": "priya.raman@acmeretail.com",
+    "subject": "Scope note: board pack automation",
+    "body": "Hi Priya,\n\nApologies for the delay. Attached is the short scope note for automating the monthly board pack [attach, from Ayush]. Happy to walk Vikas and the team through it.\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "medtrack-deck",
+   "type": "promise",
+   "company": "MedTrack Labs",
+   "contact_name": "Rohit Bansal",
+   "contact_email": "rohit@medtracklabs.in",
+   "owner": "Jay",
+   "summary": "At TechSummit Rohit asked for the intro deck and healthcare case studies; \"send this week\" (13 Jun). Nothing sent; need unclear (lab dashboards or LIMS).",
+   "action": "Send the deck and case studies; ask which need comes first.",
+   "asked_on": "2026-06-13",
+   "due_date": "2026-06-19",
+   "due_basis": "inferred",
+   "due_text": "send this week",
+   "evidence": [
+    {
+     "file": "2026-06-13_medtrack_scribble.md",
+     "quote": "asked for our intro deck + healthcare case studies"
+    },
+    {
+     "file": "2026-06-13_medtrack_scribble.md",
+     "quote": "lab ops dashboards? or was it LIMS integration. both?"
+    }
+   ],
+   "draft": {
+    "to": "rohit@medtracklabs.in",
+    "subject": "Following up from TechSummit — deck and case studies",
+    "body": "Hi Rohit,\n\nGood to meet you at TechSummit, and sorry for the delay. Attached are our intro deck and healthcare case studies [attach]. To point you to the right examples: is the priority lab ops dashboards, LIMS integration, or both?\n\nBest,\nJay"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "blueorchid-approach",
+   "type": "promise",
+   "company": "BlueOrchid Hotels",
+   "contact_name": "Farah Sayed",
+   "owner": "Jay",
+   "summary": "Farah asked what a review-analytics pilot would cost; Jay promised an approach note but has no email for her (it's on a business card).",
+   "action": "Find Farah's card, add her email to the CRM, send the approach note.",
+   "asked_on": "2026-06-19",
+   "evidence": [
+    {
+     "file": "2026-06-19_blueorchid_call.md",
+     "quote": "said I'd send an approach note — need her email first, it's on her card."
+    },
+    {
+     "file": "2026-06-19_blueorchid_call.md",
+     "quote": "seemed serious, asked what a pilot would cost"
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "contact_email": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "smartserve-reference",
+   "type": "promise",
+   "company": "SmartServe Hospitality",
+   "contact_name": "Pooja Reddy",
+   "contact_email": "pooja@smartserve.in",
+   "owner": "Jay",
+   "summary": "Arvind (burned by a past vendor) needed a reference call; never arranged. No contact since 8 Apr.",
+   "action": "Offer a reference call and nudge Pooja.",
+   "asked_on": "2026-04-05",
+   "value_usd": 25000,
+   "value_text": "Pooja estimated 25k budget",
+   "evidence": [
+    {
+     "file": "2026-04-05_smartserve_intro_call.md",
+     "quote": "Reference call with a past client for Arvind — Jay *(not arranged)*"
+    },
+    {
+     "file": "2026-04-05_smartserve_intro_call.md",
+     "quote": "Pooja estimated 25k budget \"if the scope is right\"."
+    }
+   ],
+   "draft": {
+    "to": "pooja@smartserve.in",
+    "subject": "Banquet booking app — a reference for Arvind",
+    "body": "Hi Pooja,\n\nI promised Arvind a reference call with a past client and didn't follow through. Apologies. [Client name] is happy to talk about working with us, including milestone-based payments. Would you like me to set it up?\n\nBest,\nJay"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "vertex-reconnect",
+   "type": "promise",
+   "company": "Vertex Constructions",
+   "contact_name": "P. Naidu",
+   "contact_email": "naidu@vertexcon.in",
+   "owner": "Jay",
+   "summary": "Jay said he'd reconnect in February after Mr. Naidu's leave. Nobody did.",
+   "action": "Re-open the conversation about the site progress app.",
+   "asked_on": "2026-01-20",
+   "due_date": "2026-02-03",
+   "due_basis": "inferred",
+   "due_text": "will reconnect in February",
+   "evidence": [
+    {
+     "file": "2026-01-15_vertex_ooo_stall.md",
+     "quote": "No problem — will reconnect in February."
+    },
+    {
+     "file": "2026-01-15_vertex_ooo_stall.md",
+     "quote": "No one reconnected in February."
+    }
+   ],
+   "draft": {
+    "to": "naidu@vertexcon.in",
+    "subject": "Site progress tracking app — reconnecting",
+    "body": "Dear Mr. Naidu,\n\nI said I'd reconnect in February and I'm late. Apologies. Is a site progress tracking app still on your agenda? Happy to walk you through the approach we sketched whenever suits you.\n\nBest,\nJay"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "globalmart-phasing",
+   "type": "promise",
+   "company": "GlobalMart",
+   "contact_name": "Neha Shah",
+   "contact_email": "neha.shah@globalmart.com",
+   "owner": "Karandeep",
+   "summary": "Neha offered two pricing options (trim analytics or lower price); Karandeep promised an answer by Friday. Also an unanswered demand-forecasting question.",
+   "action": "Reply with the phasing choice and answer the forecasting question.",
+   "asked_on": "2026-06-26",
+   "due_date": "2026-07-03",
+   "due_basis": "inferred",
+   "due_text": "(Will respond by Friday.)",
+   "evidence": [
+    {
+     "file": "2026-06-24_globalmart_pricing.md",
+     "quote": "trim the analytics module to Phase 2, or hold the full scope at a lower figure. Which works better for you?"
+    },
+    {
+     "file": "2026-06-24_globalmart_pricing.md",
+     "quote": "let me discuss with the team and come back on the phasing. (Will respond by Friday.)"
+    },
+    {
+     "file": "2026-06-24_globalmart_pricing.md",
+     "quote": "my colleague in supply chain asked whether you do demand forecasting. Do you?"
+    }
+   ],
+   "draft": {
+    "to": "neha.shah@globalmart.com",
+    "subject": "RE: Proposal — Vendor Portal",
+    "body": "Hi Neha,\n\nApologies for missing Friday. On phasing, we'd suggest [option: move the analytics module to Phase 2 / adjusted figure for full scope]. On your colleague's question: yes, we do demand forecasting, and I'd be happy to set up a separate conversation with supply chain.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "agrolink-proposal",
+   "type": "promise",
+   "company": "AgroLink",
+   "contact_name": "Harpreet Gill",
+   "contact_email": "harpreet@agrolink.in",
+   "owner": "Dhaval",
+   "summary": "Budget of ~35–40k approved; Harpreet wants the proposal before 10 July and goes on leave on the 14th. Not started.",
+   "action": "Send the proposal today, or tell Harpreet when before the 14th.",
+   "asked_on": "2026-07-01",
+   "due_date": "2026-07-10",
+   "due_basis": "explicit",
+   "due_text": "proposal — Dhaval — by 10 Jul",
+   "value_usd": 35000,
+   "value_text": "~35-40k approved for this FY",
+   "evidence": [
+    {
+     "file": "2026-07-01_agrolink_budget_call.md",
+     "quote": "~35-40k approved for this FY"
+    },
+    {
+     "file": "2026-07-01_agrolink_budget_call.md",
+     "quote": "wants proposal before 10 July, he goes on leave 14th"
+    },
+    {
+     "file": "2026-07-01_agrolink_budget_call.md",
+     "quote": "action: proposal — Dhaval — by 10 Jul"
+    }
+   ],
+   "draft": {
+    "to": "harpreet@agrolink.in",
+    "subject": "Proposal — mandi price data pipelines",
+    "body": "Hi Harpreet,\n\nThank you again for the call. The proposal for automated mandi price pipelines and trader alerts will be with you by [date, before the 14th], so you and your CEO can review it before your leave. [Or attach it now.]\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null
+  },
+  {
+   "id": "kaveri-quote",
+   "type": "promise",
+   "company": "Kaveri Textiles",
+   "contact_name": "R. Subramaniam",
+   "contact_email": "subbu@kaveritextiles.in",
+   "owner": "Jay",
+   "summary": "Demo went well; revised 2-plant quote due 15 July; client signalled budget flexibility. Not started.",
+   "action": "Prepare the revised 2-plant quote.",
+   "asked_on": "2026-07-08",
+   "due_date": "2026-07-15",
+   "due_basis": "explicit",
+   "due_text": "Revised quote (2-plant scope) — Jay — by 15 Jul",
+   "evidence": [
+    {
+     "file": "2026-07-08_kaveri_demo_round2.md",
+     "quote": "Subbu asked for revised quote by 15 July."
+    },
+    {
+     "file": "2026-07-08_kaveri_demo_round2.md",
+     "quote": "Quote not started as of 2026-07-10."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "greengrid-proposal",
+   "type": "promise",
+   "company": "GreenGrid Solar",
+   "contact_name": "Aditya Kulkarni",
+   "contact_email": "aditya@greengrid.in",
+   "owner": "Jay",
+   "summary": "Discovery done; proposal due 17 July; Pranav to check SCADA API feasibility by 14 July. Budget 20–25k for phase 1.",
+   "action": "Get Pranav's SCADA check, then write the proposal.",
+   "asked_on": "2026-07-09",
+   "due_date": "2026-07-17",
+   "due_basis": "explicit",
+   "due_text": "Proposal — Jay — by 17 Jul",
+   "value_usd": 20000,
+   "value_text": "Aditya indicated 20–25k comfortable for phase 1",
+   "evidence": [
+    {
+     "file": "2026-07-09_greengrid_discovery.md",
+     "quote": "Proposal — Jay — by 17 Jul"
+    },
+    {
+     "file": "2026-07-09_greengrid_discovery.md",
+     "quote": "Budget: Aditya indicated 20–25k comfortable for phase 1."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null
+  },
+  {
+   "id": "datanest-profile",
+   "type": "promise",
+   "company": "DataNest",
+   "contact_name": "Sameer Kulkarni",
+   "contact_email": "sameer@datanest.io",
+   "owner": "Karandeep",
+   "summary": "Renewal verbally agreed on 8 Jul; third engineer (Kafka) profile to be shared by mid-July.",
+   "action": "Share the Kafka engineer profile.",
+   "asked_on": "2026-07-08",
+   "due_date": "2026-07-15",
+   "due_basis": "inferred",
+   "due_text": "by mid-July",
+   "evidence": [
+    {
+     "file": "2026-06-30_datanest_renewal.md",
+     "quote": "renewal verbally agreed, third engineer profile to be shared by mid-July."
+    }
+   ],
+   "draft": {
+    "to": "sameer@datanest.io",
+    "subject": "Third engineer — Kafka profile",
+    "body": "Hi Sameer,\n\nGreat speaking on Wednesday. As promised, here is the profile for the third engineer with strong Kafka experience [attach]. I'll also send the renewal paperwork so there's no gap after September.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "novapharma-questionnaire",
+   "type": "promise",
+   "company": "NovaPharma",
+   "contact_name": "Rajesh Patel",
+   "contact_email": "rpatel@novapharma.com",
+   "owner": "Bhavin",
+   "summary": "78-question security questionnaire due 24 July gates the 80k deal. Forwarded to Pranav on 1 Jul; no response and no clear owner.",
+   "action": "Assign an owner today and start the first pass.",
+   "asked_on": "2026-06-30",
+   "due_date": "2026-07-24",
+   "due_basis": "explicit",
+   "due_text": "We need the completed document back by 24 July",
+   "value_usd": 80000,
+   "value_text": "It gates the entire 80k NovaPharma deal.",
+   "evidence": [
+    {
+     "file": "2026-06-30_novapharma_security_questionnaire.md",
+     "quote": "We need the completed document back by 24 July to keep the procurement timeline."
+    },
+    {
+     "file": "2026-06-30_novapharma_security_questionnaire.md",
+     "quote": "It gates the entire 80k NovaPharma deal."
+    },
+    {
+     "file": "2026-06-30_novapharma_security_questionnaire.md",
+     "quote": "No response from Pranav and no work started on the questionnaire as of 2026-07-10."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null
+  },
+  {
+   "id": "healthfirst-board",
+   "type": "deadline",
+   "company": "HealthFirst Clinics",
+   "contact_name": "Dr. Anita Rao",
+   "contact_email": "anita.rao@healthfirst.in",
+   "owner": "Karandeep",
+   "summary": "Board decides the portal on 14 July. No contact since April. Anita also referred Citywide Diagnostics.",
+   "action": "Check in with Anita before the board sitting.",
+   "asked_on": "2026-04-22",
+   "due_date": "2026-07-13",
+   "due_basis": "inferred",
+   "due_text": "now scheduled for 14 July",
+   "value_usd": 30000,
+   "value_text": "Phase 1 ... at 18k, Phase 2 ... at 12k",
+   "evidence": [
+    {
+     "file": "2026-04-20_healthfirst_board_update.md",
+     "quote": "the portal decision has been deferred to the next sitting, now scheduled for 14 July."
+    },
+    {
+     "file": "2026-04-20_healthfirst_board_update.md",
+     "quote": "Phase 1 (patient registration + appointments) at 18k, Phase 2 (records + billing integration) at 12k."
+    }
+   ],
+   "draft": {
+    "to": "anita.rao@healthfirst.in",
+    "subject": "Ahead of the 14 July board sitting",
+    "body": "Hi Anita,\n\nWishing you well for the board sitting on 14 July. Is there anything else we can provide beforehand to support the phased proposal (Phase 1 at 18k, Phase 2 at 12k)?\n\nAnd thank you for introducing Rakesh at Citywide Diagnostics. We're speaking on Monday.\n\nBest,\nKarandeep"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null
+  },
+  {
+   "id": "finserve-ping",
+   "type": "deadline",
+   "company": "FinServe Capital",
+   "contact_name": "Arjun Mehta",
+   "contact_email": "arjun@finservecapital.in",
+   "owner": "Karandeep",
+   "summary": "Credit-scoring ML for thin-file customers. Arjun is travelling; asked to be pinged after the 15th.",
+   "action": "Ping Arjun after 15 July.",
+   "asked_on": "2026-06-30",
+   "due_date": "2026-07-16",
+   "due_basis": "explicit",
+   "due_text": "said ping him after 15th",
+   "evidence": [
+    {
+     "file": "2026-06-30_finserve_intro_call.md",
+     "quote": "arjun travelling first 2 wks of july, said ping him after 15th"
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "oceanfreight-call",
+   "type": "meeting",
+   "company": "OceanFreight",
+   "contact_name": "Karl Nilsen",
+   "contact_email": "karl@oceanfreight.no",
+   "owner": "Jay",
+   "summary": "Discovery call 14 July, 8:00 CET / 11:30 IST. CRM has no owner.",
+   "action": "Prepare for the call; set yourself as owner in the CRM.",
+   "asked_on": "2026-07-03",
+   "due_date": "2026-07-14",
+   "due_basis": "explicit",
+   "due_text": "14 July 8:00 CET / 11:30 IST confirmed",
+   "evidence": [
+    {
+     "file": "2026-06-28_oceanfreight_timezones.md",
+     "quote": "14 July 8:00 CET / 11:30 IST confirmed — invite sent."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "citywide-call",
+   "type": "meeting",
+   "company": "Citywide Diagnostics",
+   "contact_name": "Rakesh Gupta",
+   "contact_email": "rakesh@citywidediag.in",
+   "owner": "Karandeep",
+   "summary": "Referral from HealthFirst: 22 centres, three disconnected systems. Call Monday 13 July, 11am. CRM has no owner.",
+   "action": "Prepare for the call; set yourself as owner in the CRM.",
+   "asked_on": "2026-07-07",
+   "due_date": "2026-07-13",
+   "due_basis": "explicit",
+   "due_text": "Monday 13th, 11am works.",
+   "evidence": [
+    {
+     "file": "2026-07-06_citywide_referral.md",
+     "quote": "Monday 13th, 11am works. See you then."
+    },
+    {
+     "file": "2026-07-06_citywide_referral.md",
+     "quote": "CRM entry L-1039 exists but the owner column is blank."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "acme-forecasting",
+   "type": "cross_sell",
+   "company": "Acme Retail Group",
+   "contact_name": "Priya Raman",
+   "contact_email": "priya.raman@acmeretail.com",
+   "owner": "Dhaval",
+   "summary": "Acme's ops team struggles with seasonal inventory forecasting. New opportunity, not logged anywhere.",
+   "action": "Ask Priya for an intro to the COO about forecasting.",
+   "asked_on": "2026-06-24",
+   "evidence": [
+    {
+     "file": "2026-06-18_acme_retail_monthly_reports.md",
+     "quote": "our ops team has been struggling with inventory forecasting for seasonal SKUs."
+    },
+    {
+     "file": "2026-06-24_acme_quarterly_review.md",
+     "quote": "New opportunity, not logged anywhere."
+    }
+   ],
+   "draft": {
+    "to": "priya.raman@acmeretail.com",
+    "subject": "Seasonal inventory forecasting",
+    "body": "Hi Priya,\n\nYou and Vikas mentioned the seasonal inventory forecasting challenge (overstock on festive SKUs, stockouts on staples). That is an area we work in. Would you be open to introducing us to your COO for a short conversation?\n\nBest,\nDhaval"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "acme-renewal",
+   "type": "cross_sell",
+   "company": "Acme Retail Group",
+   "contact_name": "Priya Raman",
+   "contact_email": "priya.raman@acmeretail.com",
+   "owner": "Dhaval",
+   "summary": "Support contract renewal due September; Priya signalled no issues.",
+   "action": "Start the renewal in August.",
+   "asked_on": "2026-06-24",
+   "due_date": "2026-08-03",
+   "due_basis": "inferred",
+   "due_text": "Renewal of support contract due September.",
+   "evidence": [
+    {
+     "file": "2026-06-24_acme_quarterly_review.md",
+     "quote": "Renewal of support contract due September. Priya signalled no issues."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "paytrack-merchant-risk",
+   "type": "cross_sell",
+   "company": "PayTrack",
+   "contact_name": "Shreya Iyer",
+   "contact_email": "shreya@paytrack.io",
+   "owner": "Bhavin",
+   "summary": "Ops wants fraud scoring applied to merchant onboarding. Shreya asked for a one-pager to circulate before August planning.",
+   "action": "Send a one-pager on a merchant-risk module.",
+   "asked_on": "2026-07-02",
+   "client_deadline": "2026-07-31",
+   "client_deadline_text": "before our August planning cycle",
+   "evidence": [
+    {
+     "file": "2026-07-02_paytrack_phase2.md",
+     "quote": "the ops team wants the same scoring applied to merchant onboarding, not just transactions."
+    },
+    {
+     "file": "2026-07-02_paytrack_phase2.md",
+     "quote": "if you sent us a one-pager on what a merchant-risk module would look like, I could circulate it before our August planning cycle."
+    }
+   ],
+   "draft": {
+    "to": "shreya@paytrack.io",
+    "subject": "RE: Fraud model — quarterly review notes",
+    "body": "Hi Shreya,\n\nThanks for sharing the review notes, and for introducing Rhea at Nimbus Lending. Attached is a one-pager on what a merchant-risk module could look like [attach], for you to circulate before your August planning cycle.\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "quantia-revisit",
+   "type": "revisit",
+   "company": "Quantia Analytics",
+   "contact_name": "James Whitfield",
+   "contact_email": "james@quantia.co.uk",
+   "owner": "Bhavin",
+   "summary": "Lost on timing (mid-acquisition). James asked us to check back around Q2 2026, which has now passed. No revisit was scheduled.",
+   "action": "Check back with James now.",
+   "asked_on": "2025-09-30",
+   "due_date": "2026-06-30",
+   "due_basis": "inferred",
+   "due_text": "likely Q2 2026. Please do check back with us around then.",
+   "evidence": [
+    {
+     "file": "2025-09-30_quantia_lost_deal.md",
+     "quote": "nothing new gets signed until that closes, likely Q2 2026."
+    },
+    {
+     "file": "2025-09-30_quantia_lost_deal.md",
+     "quote": "Please do check back with us around then. I mean that."
+    }
+   ],
+   "draft": {
+    "to": "james@quantia.co.uk",
+    "subject": "Checking back, as promised",
+    "body": "Hi James,\n\nYou asked us to check back around Q2 2026, once the acquisition had closed. Has it completed, and is the work we discussed back on the table? Happy to pick up from our discovery sessions whenever suits.\n\nBest,\nBhavin"
+   },
+   "status": "open",
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null
+  },
+  {
+   "id": "steelcore-nudge",
+   "type": "revisit",
+   "company": "SteelCore Industries",
+   "contact_name": "B.K. Verma",
+   "contact_email": "bkverma@steelcore.in",
+   "owner": "Jay",
+   "summary": "Pricing objection (freelancer quote much lower); Jay offered a call on 14 Feb. No reply, no nudge since.",
+   "action": "Send one more nudge or close it out.",
+   "asked_on": "2026-02-14",
+   "value_usd": 15000,
+   "value_text": "indicative estimate of 14–16k",
+   "evidence": [
+    {
+     "file": "2026-02-05_steelcore_pricing_objection.md",
+     "quote": "indicative estimate of 14–16k depending on data source complexity."
+    },
+    {
+     "file": "2026-02-05_steelcore_pricing_objection.md",
+     "quote": "No response from Verma, and no further nudge from AtliQ."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "urbannest-nudge",
+   "type": "revisit",
+   "company": "UrbanNest Realty",
+   "contact_name": "Kunal Kapoor",
+   "contact_email": "kunal@urbannest.com",
+   "owner": "Jay",
+   "summary": "Approach note for the site-visit app sent 4 May; no response and no follow-up since.",
+   "action": "Send one more nudge or close it out.",
+   "asked_on": "2026-05-04",
+   "evidence": [
+    {
+     "file": "2026-05-04_urbannest_no_response.md",
+     "quote": "No response. No further follow-up sent."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "apexauto-nudge",
+   "type": "revisit",
+   "company": "ApexAuto Parts",
+   "contact_name": "Ravi Shankar",
+   "contact_email": "ravi@apexauto.in",
+   "owner": "Unassigned",
+   "summary": "Cold outreach, two emails, never answered. CRM has no owner and no service interest.",
+   "action": "Decide: assign an owner or close it out.",
+   "asked_on": "2026-03-20",
+   "evidence": [
+    {
+     "file": "2026-03-04_apexauto_cold_outreach.md",
+     "quote": "No response ever received."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "ridgeline-lead",
+   "type": "new_lead",
+   "company": "Ridgeline Foods",
+   "owner": "Unassigned",
+   "summary": "Ops head phoned about a distributor ordering portal (~200 distributors) after hearing about Sunrise Foods. No name, number or email captured.",
+   "action": "Check the shared inbox for a Ridgeline email; ask Meera (Sunrise) which distributor they share.",
+   "asked_on": "2026-07-03",
+   "evidence": [
+    {
+     "file": "2026-07-03_ridgeline_scribble.md",
+     "quote": "wants same thing, distributor ordering portal, ~200 distributors"
+    },
+    {
+     "file": "2026-07-03_ridgeline_scribble.md",
+     "quote": "took no number, no email"
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "contact_name": null,
+   "contact_email": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "techsummit-cards",
+   "type": "internal",
+   "company": "TechSummit leads",
+   "owner": "Jay",
+   "summary": "About 15 cards collected, 4 entered. 8–10 cards still in the drawer.",
+   "action": "Enter the remaining TechSummit cards (photo each one; the assistant drafts the records).",
+   "asked_on": "2026-06-14",
+   "evidence": [
+    {
+     "file": "2026-06-14_techsummit_debrief.md",
+     "quote": "8–10 more cards in the drawer, not yet gone through"
+    },
+    {
+     "file": "2026-07-02_internal_pipeline_review.md",
+     "quote": "TechSummit: ~15 business cards collected. 4 entered in CRM so far (Jay)."
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "contact_name": null,
+   "contact_email": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "loopmart-notes",
+   "type": "internal",
+   "company": "LoopMart",
+   "contact_name": "Sania Sheikh",
+   "contact_email": "sania@loopmart.com",
+   "owner": "Karandeep",
+   "summary": "Pricing-call notes stop mid-sentence (\"she said\"). Ballpark given: 18–22k.",
+   "action": "Finish the notes and agree the next step with Sania.",
+   "asked_on": "2026-06-26",
+   "value_usd": 18000,
+   "value_text": "gave ballpark 18–22k",
+   "evidence": [
+    {
+     "file": "2026-06-26_loopmart_pricing_call.md",
+     "quote": "gave ballpark 18–22k for retail analytics dashboards, phase-able"
+    },
+    {
+     "file": "2026-06-26_loopmart_pricing_call.md",
+     "quote": "she said"
+    }
+   ],
+   "status": "open",
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "trustline-contract",
+   "type": "promise",
+   "status": "done",
+   "company": "Trustline NBFC",
+   "contact_name": "Mohan Krishnan",
+   "contact_email": "mohan.k@trustline.in",
+   "owner": "Dhaval",
+   "summary": "Board approved; verbal go-ahead on 9 Jul; contract out for signature.",
+   "action": "Chase the signature if not back by 17 July.",
+   "asked_on": "2026-07-06",
+   "evidence": [
+    {
+     "file": "2026-07-03_trustline_approved.md",
+     "quote": "Call held 2026-07-09 with verbal go-ahead; contract out for signature."
+    }
+   ],
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  },
+  {
+   "id": "kaveri-demo",
+   "type": "meeting",
+   "status": "done",
+   "company": "Kaveri Textiles",
+   "contact_name": "R. Subramaniam",
+   "contact_email": "subbu@kaveritextiles.in",
+   "owner": "Jay",
+   "summary": "Re-opened lost deal; demo held 8 July.",
+   "action": "None.",
+   "asked_on": "2026-06-26",
+   "evidence": [
+    {
+     "file": "2026-06-23_kaveri_vendor_failed.md",
+     "quote": "Demo held 2026-07-08"
+    }
+   ],
+   "draft": null,
+   "client_deadline": null,
+   "client_deadline_text": null,
+   "value_usd": null,
+   "value_text": null,
+   "due_date": null,
+   "due_basis": "default",
+   "due_text": null
+  }
+ ],
+ "crm_updates": [
+  {
+   "company": "FinEdge Bank",
+   "lead_hint": null,
+   "field": "next_followup_date",
+   "new_value": "2026-07-10",
+   "reason": "Commercial call unconfirmed for 21 days.",
+   "evidence": [
+    {
+     "file": "2026-03-26_finedge_compliance_docs.md",
+     "quote": "please confirm your availability."
+    }
+   ]
+  },
+  {
+   "company": "FinEdge Bank",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Compliance cleared 19 Jun 2026; client asked for commercial call.",
+   "reason": "CRM still says compliance review ongoing.",
+   "evidence": [
+    {
+     "file": "2026-03-26_finedge_compliance_docs.md",
+     "quote": "compliance has cleared AtliQ."
+    }
+   ]
+  },
+  {
+   "company": "Kaveri Textiles",
+   "lead_hint": null,
+   "field": "status",
+   "new_value": "Contacted",
+   "reason": "Lost deal re-opened: demo held 8 Jul, revised quote requested.",
+   "evidence": [
+    {
+     "file": "2026-07-08_kaveri_demo_round2.md",
+     "quote": "Update CRM — L-1007 still shows \"Lost\" — Jay"
+    }
+   ]
+  },
+  {
+   "company": "ClearPath Insurance",
+   "lead_hint": null,
+   "field": "status",
+   "new_value": "Contacted",
+   "reason": "Client re-opened the deal after the budget freeze lifted.",
+   "evidence": [
+    {
+     "file": "2026-06-09_clearpath_budget_unfrozen.md",
+     "quote": "the project is back on our roadmap for Q3."
+    }
+   ]
+  },
+  {
+   "company": "Trustline NBFC",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Board approved; verbal go-ahead 9 Jul 2026; contract out for signature.",
+   "reason": "CRM still says Proposal Sent.",
+   "evidence": [
+    {
+     "file": "2026-07-03_trustline_approved.md",
+     "quote": "Call held 2026-07-09 with verbal go-ahead; contract out for signature."
+    }
+   ]
+  },
+  {
+   "company": "AgroLink",
+   "lead_hint": null,
+   "field": "status",
+   "new_value": "Contacted",
+   "reason": "Status is blank; budget call held 1 Jul.",
+   "evidence": [
+    {
+     "file": "2026-07-01_agrolink_budget_call.md",
+     "quote": "finally connected after techsummit (2.5 weeks!)"
+    }
+   ]
+  },
+  {
+   "company": "AgroLink",
+   "lead_hint": null,
+   "field": "est_value_usd",
+   "new_value": "35000",
+   "reason": "Budget stated on the call (35–40k; lower bound used).",
+   "evidence": [
+    {
+     "file": "2026-07-01_agrolink_budget_call.md",
+     "quote": "~35-40k approved for this FY"
+    }
+   ]
+  },
+  {
+   "company": "GreenGrid Solar",
+   "lead_hint": null,
+   "field": "est_value_usd",
+   "new_value": "20000",
+   "reason": "Phase 1 budget stated (20–25k; lower bound used).",
+   "evidence": [
+    {
+     "file": "2026-07-09_greengrid_discovery.md",
+     "quote": "Budget: Aditya indicated 20–25k comfortable for phase 1."
+    }
+   ]
+  },
+  {
+   "company": "GreenGrid Solar",
+   "lead_hint": null,
+   "field": "status",
+   "new_value": "Contacted",
+   "reason": "Discovery call held 9 Jul.",
+   "evidence": [
+    {
+     "file": "2026-07-03_greengrid_new_lead.md",
+     "quote": "Discovery call held 2026-07-09"
+    }
+   ]
+  },
+  {
+   "company": "OceanFreight",
+   "lead_hint": null,
+   "field": "owner",
+   "new_value": "Jay",
+   "reason": "Owner blank; Jay is running the conversation.",
+   "evidence": [
+    {
+     "file": "2026-06-28_oceanfreight_timezones.md",
+     "quote": "CRM entry L-1033 has no owner assigned — Jay took it by default but it hasn't been discussed."
+    }
+   ]
+  },
+  {
+   "company": "Citywide Diagnostics",
+   "lead_hint": null,
+   "field": "owner",
+   "new_value": "Karandeep",
+   "reason": "Owner blank; Karandeep is running the conversation.",
+   "evidence": [
+    {
+     "file": "2026-07-06_citywide_referral.md",
+     "quote": "CRM entry L-1039 exists but the owner column is blank."
+    }
+   ]
+  },
+  {
+   "company": "EduSpark",
+   "lead_hint": null,
+   "field": "owner",
+   "new_value": "Jay",
+   "reason": "Owner blank; Vikram wrote to Jay.",
+   "evidence": [
+    {
+     "file": "2026-07-08_eduspark_website_enquiry.md",
+     "quote": "CRM entry L-1010 has no owner assigned"
+    }
+   ]
+  },
+  {
+   "company": "MiraHealth",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "UK ops first (not India); budget ~35k confirmed verbally; CTO ex-NHS, needs clinical safety docs.",
+   "reason": "Dhaval asked for this to go in the CRM.",
+   "evidence": [
+    {
+     "file": "2026-07-07_mirahealth_quick_summary.md",
+     "quote": "Can you put this in the CRM? I'll forget half of it by next week."
+    }
+   ]
+  },
+  {
+   "company": "DataNest",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Renewal verbally agreed 8 Jul 2026 (contract ends Sept); third engineer (Kafka) requested.",
+   "reason": "Expansion not in the CRM.",
+   "evidence": [
+    {
+     "file": "2026-06-30_datanest_renewal.md",
+     "quote": "Call held 2026-07-08 — renewal verbally agreed, third engineer profile to be shared by mid-July."
+    }
+   ]
+  },
+  {
+   "company": "Northwind Logistics",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Cross-sell: CEO wants a Power BI dashboard layer on the existing warehouse.",
+   "reason": "No new opportunity logged.",
+   "evidence": [
+    {
+     "file": "2026-06-11_northwind_crosssell.md",
+     "quote": "Does AtliQ also do the dashboard layer on top?"
+    }
+   ]
+  },
+  {
+   "company": "Sunrise Foods",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Wants portal v2 (40 → 110 distributors) and a sales dashboard for the CFO.",
+   "reason": "No new opportunity logged.",
+   "evidence": [
+    {
+     "file": "2026-06-10_sunrise_foods_reactivation.md",
+     "quote": "would AtliQ want to do a v2?"
+    }
+   ]
+  },
+  {
+   "company": "ShopSwift",
+   "lead_hint": null,
+   "field": "notes",
+   "new_value": "Budget 55k formally approved; SOW needed by 15 Jul 2026.",
+   "reason": "CRM says only 'recommendation engine discussion'.",
+   "evidence": [
+    {
+     "file": "2026-06-29_shopswift_budget_confirmed.md",
+     "quote": "leadership has formally approved 55k for the recommendation engine this fiscal year."
+    }
+   ]
+  },
+  {
+   "company": "Quantia Analytics",
+   "lead_hint": null,
+   "field": "next_followup_date",
+   "new_value": "2026-07-13",
+   "reason": "Client asked to be re-contacted around Q2 2026.",
+   "evidence": [
+    {
+     "file": "2025-09-30_quantia_lost_deal.md",
+     "quote": "Please do check back with us around then."
+    }
+   ]
+  },
+  {
+   "company": "HealthFirst Clinics",
+   "lead_hint": null,
+   "field": "next_followup_date",
+   "new_value": "2026-07-13",
+   "reason": "Board decides on 14 Jul.",
+   "evidence": [
+    {
+     "file": "2026-04-20_healthfirst_board_update.md",
+     "quote": "now scheduled for 14 July."
+    }
+   ]
+  }
+ ],
+ "new_leads": [
+  {
+   "company": "Harbor & Finch Advisory",
+   "contact_name": "David Harbor",
+   "contact_email": "david@harborfinch.com",
+   "source": "Referral",
+   "service_interest": "Not stated (client reporting automation)",
+   "owner": "Bhavin",
+   "notes": "Referred by Suresh Menon (FinEdge). ~120 manual client reports a quarter.",
+   "evidence": [
+    {
+     "file": "2026-06-27_harborfinch_referral_intro.md",
+     "quote": "David runs Harbor & Finch, a boutique advisory firm"
+    }
+   ]
+  },
+  {
+   "company": "Lumino Fitness",
+   "contact_name": "Carlos Mendes",
+   "contact_email": "carlos@luminofitness.com",
+   "source": "Conference",
+   "service_interest": "AI/ML Solutions",
+   "owner": "Jay",
+   "notes": "Met at TechSummit Mumbai. Wants the member-churn case study; budgeting for next quarter.",
+   "evidence": [
+    {
+     "file": "2026-06-20_lumino_fitness_case_study.md",
+     "quote": "good meeting you at TechSummit Mumbai last week."
+    }
+   ]
+  },
+  {
+   "company": "PixelWorks Agency",
+   "contact_name": "Tara Bose",
+   "contact_email": "tara@pixelworks.agency",
+   "source": "Not stated",
+   "service_interest": "Not stated (white-label dashboards and AI)",
+   "owner": "Jay",
+   "notes": "30-person design agency; standing white-label partner, 3–4 projects a quarter.",
+   "evidence": [
+    {
+     "file": "2026-06-29_pixelworks_partnership.md",
+     "quote": "we're a 30-person design agency."
+    }
+   ]
+  },
+  {
+   "company": "Nimbus Lending",
+   "contact_name": "Rhea Sharma",
+   "contact_email": "rhea@nimbuslending.in",
+   "source": "Referral",
+   "service_interest": "AI/ML Solutions",
+   "owner": "Bhavin",
+   "notes": "Referred by Shreya Iyer (PayTrack). ~4,000 loan applications a month reviewed manually.",
+   "evidence": [
+    {
+     "file": "2026-07-05_nimbus_lending_intro.md",
+     "quote": "meet Rhea, who heads risk at Nimbus Lending."
+    }
+   ]
+  },
+  {
+   "company": "Ridgeline Foods",
+   "contact_name": "Not stated",
+   "contact_email": "Not stated",
+   "source": "Referral",
+   "service_interest": "Custom Web App",
+   "owner": "Unassigned",
+   "notes": "Ops head called about a distributor portal (~200 distributors); heard about Sunrise Foods. No contact details captured.",
+   "evidence": [
+    {
+     "file": "2026-07-03_ridgeline_scribble.md",
+     "quote": "heard about the Sunrise Foods portal from a distributor they share"
+    }
+   ]
+  }
+ ]
+}
